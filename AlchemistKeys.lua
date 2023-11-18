@@ -32,7 +32,7 @@ local function bank()
     API.RandomSleep2(2500, 2500, 2500)
     function newCounter()
         return function() -- anonymous function
-            i = i + 1
+            i = i + 28
             return i
         end
     end
@@ -74,13 +74,6 @@ end
 
 
 while API.Read_LoopyLoop() do
-    function newCounter()
-
-        return function()     -- anonymous function
-           i = i + 1
-           return i
-        end
-    end
 
 if outend == true
 then end
