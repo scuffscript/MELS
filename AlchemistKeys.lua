@@ -31,7 +31,7 @@ local function bank()
     API.DoAction_Object1(0x2e, 0, { 114750 }, 50)
     API.RandomSleep2(2500, 2500, 2500)
     function newCounter()
-        return function() -- anonymous function
+        return function()
             i = i + 28
             return i
         end
